@@ -141,6 +141,10 @@
     padding: 20px;
     border-radius: 10px;
     font-size: 16px;
+
+    &:disabled {
+        cursor: not-allowed;
+    }
 }
 
 .chat .bottom .emoji {
@@ -160,4 +164,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
+    &:disabled {
+        background-color: #5182feb4;
+        cursor: not-allowed;
+    }
 }
